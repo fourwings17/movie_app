@@ -1,0 +1,42 @@
+.detail_container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 50px auto;
+
+}
+
+.detail_container h1 {
+    font-size: 30px;
+    color:#1a3794;
+    text-align: left;
+    width: 100%;
+}
+
+.detail_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.detail_wrap img {
+    margin-right: 30px;
+}
+
+.detail_content {
+    color: #2f2f2f;
+
+}
+
+.detail_content h5 , .detail_content p {
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   font-size: 18px;   
+   width: 100%;
+}
+
+.detail_content .detail_summary {
+    margin-top: 40px;
+}

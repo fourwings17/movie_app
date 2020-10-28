@@ -1,0 +1,20 @@
+.about_container {
+    width: 600px;
+    margin: 100px auto;
+
+}
+
+.about_container h1 {
+    font-size: 30px;
+    color:#1a3794;
+    text-align: center;
+    width: 100%;
+}
+
+.about_container p {
+    margin: 50px auto;
+    text-align: center;
+    width: 80%;
+    color: rgb(59, 56, 50);
+    line-height: 300%;
+}

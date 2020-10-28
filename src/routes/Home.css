@@ -1,0 +1,44 @@
+
+/* .movies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}   */
+
+.movies {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(600px, 1fr));
+    grid-gap : 50px;
+    padding:50px;
+    padding-top: 30px;    
+}
+
+@media screen and (max-width : 1090px){
+    .movies {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+}
+
+.loading {
+    display: flex;
+    width: 100%;
+    height: 100vh;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;  /*footer높이만큼 위로 올림. 그래야 정중앙이 됨*/
+}
+
+.loader_text {
+    background-color: rgb(48, 48, 46);
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #fff;
+}

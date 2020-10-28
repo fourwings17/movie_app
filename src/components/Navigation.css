@@ -1,0 +1,26 @@
+.logo {
+    height: 150px;
+    margin-bottom: 30px;    
+}
+
+.menu ul {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    border-bottom: 1px solid #968a8a;    
+}
+
+.menu a, .menu a:link, .menu a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    color: #4d463d;
+}
